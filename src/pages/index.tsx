@@ -21,7 +21,7 @@ const IndexPage = () => {
       <SEO title="Home" />
       <Header siteTitle={data.site.siteMetadata.title} centered />
 
-      <div className="h-96 bg-purple-6 flex flex-col items-center justify-center">
+      <div className="h-96 bg-blue-6 flex flex-col items-center justify-center">
         <div className="max-w-6xl mx-auto text-center text-white">
           <div className="text-3xl mb-5">The Best APIs Start with Stoplight</div>
           <div className="text-xl max-w-3xl opacity-75">

@@ -4,7 +4,7 @@ import React from 'react';
 
 const Header = ({ siteTitle, centered }: { siteTitle: string; centered: boolean }) => {
   return (
-    <header className="bg-purple-6">
+    <header className="bg-blue-6">
       <div
         className={cn('flex items-baseline py-8', {
           'max-w-6xl mx-auto': centered,
