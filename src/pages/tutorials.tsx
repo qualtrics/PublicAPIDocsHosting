@@ -9,13 +9,13 @@ import SEO from '../components/seo';
 import StoplightPage from '../components/stoplight-page';
 
 const TutorialsPage = ({ location }: PageProps) => {
-  const nodeUri = location.pathname.split('/tutorials/')[1] || '/docs/markdown/basic-syntax.md';
+  const nodeUri = location.pathname.split('/tutorials/')[1] || '/docs/Common%20Use%20Case%20Examples/generate-custom-distribution-links-1.md';
 
   return (
     <Layout centered={false}>
       <SEO title="Tutorials" />
 
-      <StoplightPage path="tutorials" projectSrn="gh/stoplightio/studio-demo" nodeUri={nodeUri} />
+      <StoplightPage path="tutorials" projectSrn="gh/qualtrics/publicapidocs" nodeUri={nodeUri} />
     </Layout>
   );
 };
