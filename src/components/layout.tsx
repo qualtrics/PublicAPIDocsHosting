@@ -1,4 +1,3 @@
-import '@stoplight/elements/styles/elements.css';
 import '../styles/stoplight.css';
 
 import cn from 'classnames';
