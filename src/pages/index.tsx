@@ -1,6 +1,8 @@
 import { Card, Icon } from '@stoplight/ui-kit';
 import { graphql, Link, useStaticQuery } from 'gatsby';
 import React from 'react';
+import '@stoplight/elements/styles/elements.css';
+import '../styles/stoplight.css';
 
 import Header from '../components/header';
 import SEO from '../components/seo';
