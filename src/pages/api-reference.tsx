@@ -9,7 +9,7 @@ import SEO from '../components/seo';
 import StoplightPage from '../components/stoplight-page';
 
 const APIReferencePage = ({ location }: PageProps) => {
-  const nodeUri = location.pathname.replace('/api-reference/', '') || '/reference/audits.json';
+  const nodeUri = location.pathname.split('/api-reference/')[1] || '/reference/audits.json';
 
   return (
     <Layout centered={false}>
