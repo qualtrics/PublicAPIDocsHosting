@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[13],{ylaE:function(e,t,a){"use strict";a.r(t);a("sC2a"),a("XKas");var n=a("q1tI"),o=a.n(n),i=a("9Dj+"),r=a("H8eV"),c=a("MoZE");t.default=function(e){var t=e.location.pathname.replace("/guides/","")||"/docs/introduction.md";return o.a.createElement(i.a,{centered:!1},o.a.createElement(r.a,{title:"Guides"}),o.a.createElement(c.a,{path:"guides",projectSrn:"gh/stoplightio/studio-demo",nodeUri:t}))}}}]);
+//# sourceMappingURL=component---src-pages-guides-tsx-b1a519426fd330803890.js.map
