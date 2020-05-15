@@ -35,6 +35,7 @@
     "eslint-plugin-react": "^7.19.0",
     "eslint-plugin-react-hooks": "^3.0.0",
     "eslint-plugin-simple-import-sort": "^5.0.2",
+    "gh-pages": "^2.2.0",
     "prettier": "2.0.5",
     "typescript": "3.7.x"
   },
@@ -50,7 +51,8 @@
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
     "lint": "eslint --ext .ts,.tsx,.js,.jsx src",
-    "lint.fix": "eslint --ext .ts,.tsx,.js,.jsx --fix src"
+    "lint.fix": "eslint --ext .ts,.tsx,.js,.jsx --fix src",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "repository": {
     "type": "git",
