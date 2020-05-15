@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[15],{"5J//":function(t,e,a){"use strict";a.r(e);a("HQhv"),a("XKas");var n=a("q1tI"),o=a.n(n),r=a("9Dj+"),i=a("H8eV"),s=a("MoZE");e.default=function(t){var e=t.location.pathname.split("/tutorials/")[1]||"/docs/markdown/basic-syntax.md";return o.a.createElement(r.a,{centered:!1},o.a.createElement(i.a,{title:"Tutorials"}),o.a.createElement(s.a,{path:"tutorials",projectSrn:"gh/stoplightio/studio-demo",nodeUri:e}))}}}]);
+//# sourceMappingURL=component---src-pages-tutorials-tsx-c1f22110e88f6144d72f.js.map
