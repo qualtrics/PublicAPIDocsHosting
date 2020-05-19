@@ -5,7 +5,7 @@ import { Page, Provider, TableOfContents } from '@stoplight/elements';
 import { Docs } from '@stoplight/elements/components/Docs';
 import { TryIt } from '@stoplight/elements/components/TryIt';
 import { Link } from 'gatsby';
-import { join } from 'path';
+import { dirname, join, resolve } from 'path';
 import React from 'react';
 
 const StoplightPage = ({ projectSrn, nodeUri, path }: { projectSrn: string; nodeUri: string; path: string }) => {
@@ -15,15 +15,28 @@ const StoplightPage = ({ projectSrn, nodeUri, path }: { projectSrn: string; node
     <Provider
       host="https://qualtrics.stoplight.io/api"
       components={{
-        link: ({ node, children }) => {
+        link: ({ node, children }, key) => {
           // Render a custom link component
           let url = node.url;
-          if (!/^http/.test(url)) {
-            url = url.replace(projectSrn, path);
+
+          // Open external links in a new tab
+          if (/^(http|#)/.test(url)) {
+            return (
+              <a href={url} target="_blank" rel="noreferrer noopener">
+                {children}
+              </a>
+            );
+          }
+
+          if (/^\./.test(url)) {
+            // Resolve relative links
+            url = `/${path}${resolve(dirname(nodeUri), url)}`;
+          } else {
+            url = url.replace(projectSrn, `/${path}`);
           }
 
           return (
-            <Link className="reset" to={url} title={node.title}>
+            <Link key={key} className="reset" to={url} title={node.title}>
               {children}
             </Link>
           );
@@ -31,7 +44,7 @@ const StoplightPage = ({ projectSrn, nodeUri, path }: { projectSrn: string; node
       }}
     >
       <div className="flex h-full w-full">
-        <TableOfContents srn={srn} />
+        <TableOfContents srn={decodeURIComponent(srn)} />
 
         <Page
           className="flex-1"
