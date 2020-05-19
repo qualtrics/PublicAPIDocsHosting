@@ -52,7 +52,7 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
     "lint": "eslint --ext .ts,.tsx,.js,.jsx src",
     "lint.fix": "eslint --ext .ts,.tsx,.js,.jsx --fix src",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+    "deploy": "gatsby build && gh-pages -d public"
   },
   "repository": {
     "type": "git",
