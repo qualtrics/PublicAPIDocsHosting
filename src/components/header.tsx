@@ -22,12 +22,12 @@ const Header = ({ siteTitle, centered }: { siteTitle: string; centered: boolean 
             <span className="text-white font-bold">{siteTitle}</span>
           </Link>
 
-          <Link to="/guides/" className="reset mr-6 text-lg">
-            <span className="text-white">Guides</span>
+          <Link to="/instructions/" className="reset mr-6 text-lg">
+            <span className="text-white">Instructions</span>
           </Link>
 
-          <Link to="/tutorials/" className="reset mr-6 text-lg">
-            <span className="text-white">Tutorials</span>
+          <Link to="/guides/" className="reset mr-6 text-lg">
+            <span className="text-white">Guides</span>
           </Link>
 
           <Link to="/api-reference/" className="reset mr-6 text-lg">

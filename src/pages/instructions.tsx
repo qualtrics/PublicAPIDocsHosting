@@ -8,16 +8,16 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 import StoplightPage from '../components/stoplight-page';
 
-const APIReferencePage = ({ location }: PageProps) => {
-  const nodeUri = location.pathname.split('/api-reference/')[1] || '/docs/api-reference.md';
+const InstructionsPage = ({ location }: PageProps) => {
+  const nodeUri = location.pathname.split('/instructions/')[1] || '/docs/general-instructions.md';
 
   return (
     <Layout centered={false}>
-      <SEO title="API Reference" />
+      <SEO title="Instructions" />
 
-      <StoplightPage path="api-reference" projectSrn="gh/qualtrics/publicapidocs" nodeUri={nodeUri} />
+      <StoplightPage path="instructions" projectSrn="gh/qualtrics/publicapidocs" nodeUri={nodeUri} />
     </Layout>
   );
 };
 
-export default APIReferencePage;
+export default InstructionsPage;
