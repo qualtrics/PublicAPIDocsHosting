@@ -7492,7 +7492,7 @@ fork-ts-checker-webpack-plugin@1.5.0:
     tapable "^1.0.0"
     worker-rpc "^0.1.0"
 
-form-data@^3:
+form-data@3.0.0:
   version "3.0.0"
   resolved "http://artifactory.eng.qops.net:8081/artifactory/api/npm/npm-virtual/form-data/-/form-data-3.0.0.tgz#31b7e39c85f1355b7139ee0c647cf0de7f83c682"
   integrity sha1-MbfjnIXxNVtxOe4MZHzw3n+DxoI=
@@ -7797,6 +7797,13 @@ gatsby-plugin-manifest@^2.4.2:
     gatsby-core-utils "^1.2.1"
     semver "^5.7.1"
     sharp "^0.25.1"
+
+gatsby-plugin-meta-redirect@^1.1.1:
+  version "1.1.1"
+  resolved "http://artifactory.eng.qops.net:8081/artifactory/api/npm/npm-virtual/gatsby-plugin-meta-redirect/-/gatsby-plugin-meta-redirect-1.1.1.tgz#058e8e53edff38dc44d3bb6153109d01c910f863"
+  integrity sha1-BY6OU+3/ONxE07thUxCdAckQ+GM=
+  dependencies:
+    fs-extra "^7.0.0"
 
 gatsby-plugin-offline@^3.2.1:
   version "3.2.1"
