@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[12],{"HYJ+":function(e,a,n){"use strict";n.r(a);n("sC2a"),n("XKas");var t=n("q1tI"),r=n.n(t),o=n("9Dj+"),c=n("H8eV"),i=n("MoZE");a.default=function(e){var a=e.location.pathname.replace("/api-reference/","")||"/reference/todos/openapi.v1.json";return r.a.createElement(o.a,{centered:!1},r.a.createElement(c.a,{title:"API Reference"}),r.a.createElement(i.a,{path:"api-reference",projectSrn:"gh/stoplightio/studio-demo",nodeUri:a}))}}}]);
-//# sourceMappingURL=component---src-pages-api-reference-tsx-9fa3a7eb3a1de9074c08.js.map

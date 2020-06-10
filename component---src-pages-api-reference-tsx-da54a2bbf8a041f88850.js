@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[12],{"HYJ+":function(e,a,n){"use strict";n.r(a);n("sC2a"),n("XKas");var r=n("q1tI"),t=n.n(r),c=n("9Dj+"),i=n("H8eV"),o=n("MoZE");a.default=function(e){var a=e.location.pathname.replace("/api-reference/","")||"/reference/audits.json";return t.a.createElement(c.a,{centered:!1},t.a.createElement(i.a,{title:"API Reference"}),t.a.createElement(o.a,{path:"api-reference",projectSrn:"gh/qualtrics/publicapidocs",nodeUri:a}))}}}]);
-//# sourceMappingURL=component---src-pages-api-reference-tsx-da54a2bbf8a041f88850.js.map

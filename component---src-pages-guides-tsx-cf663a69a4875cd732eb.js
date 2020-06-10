@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[13],{ylaE:function(e,a,t){"use strict";t.r(a);t("HQhv"),t("XKas");var n=t("q1tI"),i=t.n(n),c=t("9Dj+"),r=t("H8eV"),o=t("MoZE");a.default=function(e){var a=e.location.pathname.split("/guides/")[1]||"/docs/overview.md";return i.a.createElement(c.a,{centered:!1},i.a.createElement(r.a,{title:"Guides"}),i.a.createElement(o.a,{path:"guides",projectSrn:"gh/qualtrics/publicapidocs",nodeUri:a}))}}}]);
-//# sourceMappingURL=component---src-pages-guides-tsx-cf663a69a4875cd732eb.js.map
