@@ -5,6 +5,7 @@ import { Link } from 'gatsby';
 import React from 'react';
 
 import StoplightProvider from './stoplight-provider';
+import Image from './image';
 
 const Header = ({ siteTitle, centered }: { siteTitle: string; centered: boolean }) => {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -18,8 +19,8 @@ const Header = ({ siteTitle, centered }: { siteTitle: string; centered: boolean 
             'px-10': !centered,
           })}
         >
-          <Link to="/" className="text-white reset mr-10 text-xl">
-            <span className="text-white font-bold">{siteTitle}</span>
+          <Link to="/" className="reset mr-10">
+            <div style={{transform: 'translateY(25%)'}}><Image/></div>
           </Link>
 
           <Link to="/instructions/" className="reset mr-6 text-lg">
