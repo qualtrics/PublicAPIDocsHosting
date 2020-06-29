@@ -35,6 +35,10 @@ const Header = ({ siteTitle, centered }: { siteTitle: string; centered: boolean 
             <span className="text-white">API Reference</span>
           </Link>
 
+          <Link to="/sdks/" className="reset mr-6 text-lg">
+            <span className="text-white">SDKs</span>
+          </Link>
+
           <Button
             icon={<Icon icon="search" iconSize={14} color="white" />}
             className="text-white"

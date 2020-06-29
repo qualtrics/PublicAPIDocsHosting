@@ -69,6 +69,18 @@ const IndexPage = () => {
               </div>
             </Card>
           </Link>
+
+          <Link className="reset mr-10 mb-10 flex-1" to="/sdks/">
+            <Card interactive elevation={1}>
+              <div className="flex">
+                <Icon icon="code" iconSize={24} />
+                <div className="flex-1 ml-4">
+                  <div className="text-xl">SDKs</div>
+                  <p>Development Kits for Building your own Applications.</p>
+                </div>
+              </div>
+            </Card>
+          </Link>
         </div>
       </div>
     </div>
