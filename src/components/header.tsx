@@ -3,9 +3,8 @@ import { Button, Icon } from '@stoplight/ui-kit';
 import cn from 'classnames';
 import { Link } from 'gatsby';
 import React from 'react';
-
-import StoplightProvider from './stoplight-provider';
 import Image from './image';
+import StoplightProvider from './stoplight-provider';
 
 const Header = ({ siteTitle, centered }: { siteTitle: string; centered: boolean }) => {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -20,7 +19,9 @@ const Header = ({ siteTitle, centered }: { siteTitle: string; centered: boolean 
           })}
         >
           <Link to="/" className="reset mr-10">
-            <div style={{transform: 'translateY(25%)'}}><Image/></div>
+            <div style={{ transform: 'translateY(25%)' }}>
+              <Image />
+            </div>
           </Link>
 
           <Link to="/instructions/" className="reset mr-6 text-lg">
