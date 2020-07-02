@@ -9,7 +9,7 @@ import SEO from '../components/seo';
 import StoplightPage from '../components/stoplight-page';
 
 const SDKsPage = ({ location }: PageProps) => {
-  const nodeUri = location.pathname.split('/sdks/')[1] || '/docs/sdks.md';
+  const nodeUri = location.pathname.split('/sdks/')[1] || '/docs/SDKs/overview.md';
 
   return (
     <Layout centered={false}>

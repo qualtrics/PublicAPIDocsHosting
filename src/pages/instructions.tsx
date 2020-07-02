@@ -9,7 +9,7 @@ import SEO from '../components/seo';
 import StoplightPage from '../components/stoplight-page';
 
 const InstructionsPage = ({ location }: PageProps) => {
-  const nodeUri = location.pathname.split('/instructions/')[1] || '/docs/general-instructions.md';
+  const nodeUri = location.pathname.split('/instructions/')[1] || '/docs/Instructions/overview.md';
 
   return (
     <Layout centered={false}>
