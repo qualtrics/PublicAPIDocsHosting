@@ -13,9 +13,8 @@ const Header = ({ siteTitle, centered }: { siteTitle: string; centered: boolean 
     <>
       <header className="bg-blue-6">
         <div            
-              className={cn('flex items-baseline py-8 text-center', {
-              'max-w-6xl mx-auto': centered,
-              'px-10': centered,
+              className={cn('flex items-baseline text-center', {
+              'max-w-6xl mx-auto': centered
             })}
           >
           <div
