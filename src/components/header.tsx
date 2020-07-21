@@ -12,40 +12,46 @@ const Header = ({ siteTitle, centered }: { siteTitle: string; centered: boolean 
   return (
     <>
       <header className="bg-blue-6">
-        <div
-          className={cn('flex items-baseline py-8', {
-            'max-w-6xl mx-auto': centered,
-            'px-10': !centered,
-          })}
-        >
-          <Link to="/" className="reset mr-10">
-            <div style={{ transform: 'translateY(25%)' }}>
-              <Image />
-            </div>
-          </Link>
+        <div            
+              className={cn('flex items-baseline text-center', {
+              'max-w-6xl mx-auto': centered
+            })}
+          >
+          <div
+            className={cn('flex items-baseline py-8', {
+              'max-w-6xl mx-auto': centered,
+              'px-10': !centered,
+            })}
+          >
+            <Link to="/" className="reset mr-10">
+              <div style={{ transform: 'translateY(25%)' }}>
+                <Image />
+              </div>
+            </Link>
 
-          <Link to="/instructions/" className="reset mr-6 text-lg">
-            <span className="text-white">Instructions</span>
-          </Link>
+            <Link to="/instructions/" className="reset mr-6 text-lg">
+              <span className="text-white">Instructions</span>
+            </Link>
 
-          <Link to="/guides/" className="reset mr-6 text-lg">
-            <span className="text-white">Guides</span>
-          </Link>
+            <Link to="/guides/" className="reset mr-6 text-lg">
+              <span className="text-white">Guides</span>
+            </Link>
 
-          <Link to="/api-reference/" className="reset mr-6 text-lg">
-            <span className="text-white">API Reference</span>
-          </Link>
+            <Link to="/api-reference/" className="reset mr-6 text-lg">
+              <span className="text-white">API Reference</span>
+            </Link>
 
-          <Link to="/sdks/" className="reset mr-6 text-lg">
-            <span className="text-white">SDKs</span>
-          </Link>
+            <Link to="/sdks/" className="reset mr-6 text-lg">
+              <span className="text-white">SDKs</span>
+            </Link>
 
-          <Button
-            icon={<Icon icon="search" iconSize={14} color="white" />}
-            className="text-white"
-            minimal
-            onClick={() => setIsOpen(true)}
-          />
+            <Button
+              icon={<Icon icon="search" iconSize={14} color="white" />}
+              className="text-white"
+              minimal
+              onClick={() => setIsOpen(true)}
+            />
+          </div>
         </div>
       </header>
 
