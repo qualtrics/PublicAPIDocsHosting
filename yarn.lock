@@ -8298,6 +8298,13 @@ gatsby-page-utils@^0.2.10:
     lodash "^4.17.15"
     micromatch "^3.1.10"
 
+gatsby-plugin-amplitude-analytics@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-amplitude-analytics/-/gatsby-plugin-amplitude-analytics-3.2.0.tgz#e43e1ece9a51e559abc3560c205501d10468c8a9"
+  integrity sha512-8221ADi4h67NZwAI+j3StnhOvthN/ETBFoFPWHkRuhQfzOB8FOaQeH31PN6IUYCs7HaGRI50CwNS3CBXq1Qq3A==
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+
 gatsby-plugin-manifest@^2.4.2:
   version "2.4.12"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-2.4.12.tgz#b1b1bd3fb97cfdf5358b3989de85d85941b6ace8"
@@ -9675,7 +9682,7 @@ https-proxy-agent@^5.0.0:
     commander "^2.9.0"
     debug "^2.2.0"
     event-stream "3.3.4"
-    form-data "3.0.0"
+    form-data "^3.0.0"
     fs-readfile-promise "^2.0.1"
     fs-writefile-promise "^1.0.3"
     har-validator "^5.0.0"
