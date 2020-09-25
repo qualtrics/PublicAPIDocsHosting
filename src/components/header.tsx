@@ -5,16 +5,10 @@ import { Link } from 'gatsby';
 import React from 'react';
 import Image from './image';
 import StoplightProvider from './stoplight-provider';
-import amplitude from 'amplitude-js';
 
 const Header = ({ siteTitle, centered }: { siteTitle: string; centered: boolean }) => {
   const [isOpen, setIsOpen] = React.useState(false);
   
-  if (typeof window !== 'undefined') {
-    amplitude.getInstance().init("e831b49703fdedc9f40d77ace463433b")
-    amplitude.setUserProperties({host: window.location.host})
-    amplitude.getInstance().logEvent('ApiDocs.Navigate', {host: window.location.host})
-  }
   return (
     <>
       <header className="bg-blue-6">
