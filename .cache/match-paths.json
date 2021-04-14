@@ -1,0 +1,18 @@
+[
+    {
+        "path": "/api-reference/",
+        "matchPath": "/api-reference/*"
+    },
+    {
+        "path": "/guides/",
+        "matchPath": "/guides/*"
+    },
+    {
+        "path": "/instructions/",
+        "matchPath": "/instructions/*"
+    },
+    {
+        "path": "/sdks/",
+        "matchPath": "/sdks/*"
+    }
+]

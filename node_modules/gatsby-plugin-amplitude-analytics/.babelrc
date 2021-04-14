@@ -1,0 +1,5 @@
+{
+  "presets": [
+    ["./build/babel-preset.js", { "browser": true }]
+  ]
+}

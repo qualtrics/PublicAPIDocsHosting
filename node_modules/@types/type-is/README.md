@@ -1,0 +1,16 @@
+# Installation
+> `npm install --save @types/type-is`
+
+# Summary
+This package contains type definitions for type-is (https://github.com/jshttp/type-is#readme).
+
+# Details
+Files were exported from https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/type-is
+
+Additional Details
+ * Last updated: Mon, 19 Aug 2019 00:51:19 GMT
+ * Dependencies: @types/node
+ * Global values: none
+
+# Credits
+These definitions were written by BendingBender <https://github.com/BendingBender>.

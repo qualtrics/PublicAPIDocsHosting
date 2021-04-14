@@ -1,0 +1,32 @@
+{
+  "name": "parse-prefer-header",
+  "version": "1.0.0",
+  "description": "parses an http prefer header, aka rfc7240",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint . && mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ppaskaris/node-parse-prefer-header.git"
+  },
+  "keywords": [
+    "prefer",
+    "rfc7240",
+    "7240"
+  ],
+  "author": "Patrick Paskaris <patrick@paskaris.gr>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ppaskaris/node-parse-prefer-header/issues"
+  },
+  "homepage": "https://github.com/ppaskaris/node-parse-prefer-header#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.11.0",
+    "mocha": "^3.2.0"
+  },
+  "dependencies": {
+    "lodash.camelcase": "^4.3.0"
+  }
+}

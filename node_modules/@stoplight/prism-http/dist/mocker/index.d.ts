@@ -1,0 +1,13 @@
+import { IPrismComponents, IPrismDiagnostic } from '@stoplight/prism-core';
+import { IHttpOperation, IHttpOperationResponse } from '@stoplight/types';
+import * as E from 'fp-ts/lib/Either';
+import * as R from 'fp-ts/lib/Reader';
+import { Logger } from 'pino';
+import { IHttpRequest, IHttpResponse, IMockHttpConfig, ProblemJsonError } from '../types';
+import { IHttpNegotiationResult } from './negotiator/types';
+import { NonEmptyArray } from 'fp-ts/lib/NonEmptyArray';
+declare const mock: IPrismComponents<IHttpOperation, IHttpRequest, IHttpResponse, IMockHttpConfig>['mock'];
+export declare function createInvalidInputResponse(failedValidations: NonEmptyArray<IPrismDiagnostic>, responses: IHttpOperationResponse[]): R.Reader<Logger, E.Either<ProblemJsonError, IHttpNegotiationResult>>;
+export declare const createUnauthorisedResponse: (tags?: string[] | undefined) => ProblemJsonError;
+export declare const createUnprocessableEntityResponse: (validations: NonEmptyArray<IPrismDiagnostic>) => ProblemJsonError;
+export default mock;

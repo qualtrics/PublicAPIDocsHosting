@@ -1,0 +1,26 @@
+{
+    "name": "@types/type-is",
+    "version": "1.6.3",
+    "description": "TypeScript definitions for type-is",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "BendingBender",
+            "url": "https://github.com/BendingBender",
+            "githubUsername": "BendingBender"
+        }
+    ],
+    "main": "",
+    "types": "index",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/type-is"
+    },
+    "scripts": {},
+    "dependencies": {
+        "@types/node": "*"
+    },
+    "typesPublisherContentHash": "560845c36acff23e2275aac28448aa5020f4f1073b9d251f46edc1ee43a4c576",
+    "typeScriptVersion": "2.3"
+}
