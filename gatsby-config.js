@@ -1,19 +1,20 @@
 module.exports = {
   siteMetadata: {
-    title: `Qualtrics API Docs`,
-    description: `The official Qualtrics API documentation.`,
-    author: `@qualtrics`,
+    title: "Qualtrics API Documentation",
+    description: "The official Qualtrics API documentation.",
+    author: "@Qualtrics",
+    pathPrefix: "/APIDocsWebsite",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-anchor-links`,
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: "gatsby-plugin-robots-txt",
       options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
+        host: "https://api-test.qualtrics.com",
+        policy: [{ userAgent: "*", disallow: ["/"] }],
       },
     },
-    `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
@@ -38,20 +39,16 @@ module.exports = {
         head: false,
         // Override the default event types (optional)
         eventTypes: {
-          outboundLinkClick: 'ApiDocs.OUTBOUND_LINK_CLICK',
-          pageView: 'ApiDocs.Navigate',
+          outboundLinkClick: "ApiDocs.OUTBOUND_LINK_CLICK",
+          pageView: "ApiDocs.Navigate",
         },
         // Amplitude JS SDK configuration options (optional)
         amplitudeConfig: {
           saveEvents: true,
           includeUtm: true,
-          includeReferrer: true
-        }
-      }
+          includeReferrer: true,
+        },
+      },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
-    `gatsby-plugin-meta-redirect`
   ],
 };
