@@ -3,7 +3,7 @@ module.exports = {
     title: "Qualtrics API Documentation",
     description: "The official Qualtrics API documentation.",
     author: "@Qualtrics",
-    pathPrefix: "/APIDocsWebsite",
+    pathPrefix: "/PublicAPIDocsHosting",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
