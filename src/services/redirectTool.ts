@@ -116,15 +116,15 @@ export function getRedirect(path: string, anchor: string) {
         //INSTRUCTIONS
         ["/docs/Instructions/overview.md", "/8shbk1msh6f05-overview"],
         [
-            "/docs/Instructions/Quick Start/getting-more-secure-with-oauth.md",
+            "/docs/Instructions/quick-start/getting-more-secure-with-oauth.md",
             "/ZG9jOjg3NzY5Mw-security-and-o-auth",
         ],
         [
-            "/docs/Instructions/Quick Start/qualtrics-api-quick-start.md",
+            "/docs/Instructions/quick-start/qualtrics-api-quick-start.md",
             "/24d63382c3a88-api-quick-start",
         ],
         [
-            "/docs/Instructions/Quick Start/things-to-know-about-the-api.md",
+            "/docs/Instructions/quick-start/things-to-know-about-the-api.md",
             "/b626f29209735-things-to-know-about-the-api",
         ],
         [
