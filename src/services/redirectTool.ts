@@ -152,6 +152,10 @@ export function getRedirect(path: string, anchor: string) {
             "/7367ea545f562-dates-and-times",
         ],
         [
+            "/dates-and-times.md",
+            "/7367ea545f562-dates-and-times",
+        ],
+        [
             "/docs/Instructions/Reference/language-codes.md",
             "/76d1dbf1c7f54-language-codes",
         ],
@@ -167,6 +171,7 @@ export function getRedirect(path: string, anchor: string) {
         ["/docs/Instructions/Reference/limits.md", "/a5e9a1a304902-limits"],
 
         ["/docs/Instructions/limits.md", "/a5e9a1a304902-limits"],
+        ["/limits.md", "/a5e9a1a304902-limits"],
         [
             "/docs/Instructions/Security/oauth-authentication-authorization-code.md",
             "/6c02f17c3109f-o-auth-authentication-auth-code",
